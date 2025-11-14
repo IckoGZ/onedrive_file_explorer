@@ -18,7 +18,12 @@ python one_emum.py \
 ```
 
 
-ms_file_explorer uses
+ms_file_explorer uses the username or the found drive_id (even if the user were deleted) to give a shell with read-only purposes (put not yet implemented)
 
+```
+python explorer4.py  --tenant-id XXXXXXXXXXXXXXXXXXX --client-id YYYYYYYYYYYYYYYYYYY --client-secret AAAAAAAAAAAAAAAAAAAAAA --drive-id 'b!JJJJJJJJJJJJJJJJJJJJJJJJJJ'
+```
 
-
+Supports:
+>cd
+>download
